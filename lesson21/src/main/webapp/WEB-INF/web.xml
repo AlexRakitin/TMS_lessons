@@ -10,10 +10,18 @@
     <servlet-name>exampleCars</servlet-name>
     <servlet-class>com.tms.CarsServlet</servlet-class>
 </servlet>
+    <servlet>
+        <servlet-name>exampleBook</servlet-name>
+        <servlet-class>com.tms.BookServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>exampleCars</servlet-name>
-        <url-pattern>/home</url-pattern>
+        <url-pattern>/car</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>exampleBook</servlet-name>
+        <url-pattern>/book</url-pattern>
     </servlet-mapping>
 
 </web-app>
