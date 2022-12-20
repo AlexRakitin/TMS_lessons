@@ -4,7 +4,9 @@
     <title>Title</title>
 </head>
 <body>
+
 <h2>Paragraph</h2>
 <strong>Hello from jsp</strong>
+
 </body>
 </html>

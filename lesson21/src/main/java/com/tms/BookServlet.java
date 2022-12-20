@@ -8,9 +8,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class BookServlet extends HttpServlet {
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/book.jsp").forward(req, resp);
-        super.doGet(req, resp);
+        req.getRequestDispatcher("/WEB-INF/book.jsp").forward(req, resp);
+
+
     }
+
 }

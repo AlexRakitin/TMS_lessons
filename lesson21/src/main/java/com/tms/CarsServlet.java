@@ -11,7 +11,16 @@ import java.rmi.ServerException;
 
 public class CarsServlet extends HttpServlet {
 
+    @Override
+    public void init(ServletConfig config) throws ServletException {
+        System.out.println("-------- DO INIT --------");
+    }
 
+    @Override
+    public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+        System.out.println("-------- DO SERVICE --------");
+        super.service(req, res);
+    }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServerException, IOException {
@@ -19,20 +28,5 @@ public class CarsServlet extends HttpServlet {
         ServletOutputStream outputStream = resp.getOutputStream();
         outputStream.println("Hello my first servlet!!!");
         outputStream.close();
-
-
-
-    }
-
-    @Override
-    public void init(ServletConfig config) throws ServletException {
-        System.out.println("-------- DO INIT --------");
-        super.init(config);
-    }
-
-
-    @Override
-    public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
-        super.service(req, res);
     }
 }
