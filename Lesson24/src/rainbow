@@ -9,7 +9,7 @@
 
 	<body>
 		<hr/>
-		<H1>Каждый</H1>
+		<p style = "background-color: red"><H1>Каждый</H1></p>
 		<H2>Охотник</H2>
 		<H3>Желает</H3>
 		<H4>Знать</H4>
@@ -18,7 +18,7 @@
 		<hr/>
 		<!--комментарий-->
 
-		<p><b>к</b>аждый <sup>охотник</sup> желает знать где сидит фазан</p>
+	<p style = "background-color: red"><b>к</b>аждый <sup>охотник</sup> желает знать где сидит фазан</p>
 		<hr/>
 	<table>
 		<tr>
@@ -31,13 +31,19 @@
 	</table>
 		<hr/>
 <form>
-	Text <input type="text"><br>
+	Text <input type="text" placeholder="Enter your login" name = "user"><br>
 	Password <input type="password"><br>
-	Date <input type="date"><br>
-	Number <input type="number"><br>
+	Date <input type="date" name="time"><br>
+	Number <input type="number" min = "5" max="10"><br>
 	CheckBox <input type="checkBox"><br>
-	Radio <input type="radio"><br>
-	Submit <input type="submit"><br>
+	Radio_1 <input type="radio" name = "rr" value ="1"><br>
+	Radio_2 <input type="radio" name = "rr" value ="2"><br>
+	Radio_3 <input type="radio" name = "rr" value ="3"><br>
+<select id = "cars" name = "cars">
+	<option value = "Volvo">Volvo</option>
+	<option value = "BMW">BMW</option>
+	Submit <input type="submit" name = "rr"><br>
+
 </form>
 
 	</body>
