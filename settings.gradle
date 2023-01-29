@@ -1,2 +1,4 @@
 rootProject.name = 'TMS_Lessons'
+include 'lesson21'
+findProject(':lesson21')?.name = 'Lesson21'
 
