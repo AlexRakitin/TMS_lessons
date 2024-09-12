@@ -1,2 +1,3 @@
 rootProject.name = 'TMS_Lessons'
+include 'Lesson24'
 

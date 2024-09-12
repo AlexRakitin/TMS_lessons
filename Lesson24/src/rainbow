@@ -1,0 +1,53 @@
+<html>
+
+	<head>
+	<title>Радуга</title>
+	</head>
+
+<a href = "https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B4%D1%83%D0%B3%D0%B0">Ссылка на радугу</a>
+<img src="https://kamerata.org/wp-content/uploads/2020/05/rainbow4friend.png" width="200" height="100">
+
+	<body>
+		<hr/>
+		<p style = "background-color: red"><H1>Каждый</H1></p>
+		<H2>Охотник</H2>
+		<H3>Желает</H3>
+		<H4>Знать</H4>
+		<H5>Где</H5>
+		<H6>Сидит<p>Фазан</p></H6>
+		<hr/>
+		<!--комментарий-->
+
+	<p style = "background-color: red"><b>к</b>аждый <sup>охотник</sup> желает знать где сидит фазан</p>
+		<hr/>
+	<table>
+		<tr>
+		<th>A</th><th>B</th><th>C</th>
+		</tr>
+
+		<tr>
+		<td>1</td><td>2</td><td>3</td>
+		</tr>
+	</table>
+		<hr/>
+<form>
+	Text <input type="text" placeholder="Enter your login" name = "user"><br>
+	Password <input type="password"><br>
+	Date <input type="date" name="time"><br>
+	Number <input type="number" min = "5" max="10"><br>
+	CheckBox <input type="checkBox"><br>
+	Radio_1 <input type="radio" name = "rr" value ="1"><br>
+	Radio_2 <input type="radio" name = "rr" value ="2"><br>
+	Radio_3 <input type="radio" name = "rr" value ="3"><br>
+<select id = "cars" name = "cars">
+	<option value = "Volvo">Volvo</option>
+	<option value = "BMW">BMW</option>
+	Submit <input type="submit" name = "rr"><br>
+
+</form>
+
+	</body>
+
+
+</html>
+
